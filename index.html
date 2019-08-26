@@ -1,0 +1,70 @@
+<!--Description: This is my html file to set a layout for lightbox-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lightbox</title>
+<link rel="stylesheet" href="./css/bootstrap.min.css" />
+<link rel="stylesheet" href="./css/style.css" />
+<script src="./js/jquery.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/lightbox.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="col-xs-6 col-sm-3">
+        <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+            <img src="./images/img1.png" alt="...">
+        </a>
+    </div>
+    <div class="col-xs-6 col-sm-3">
+        <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+            <img src="./images/img2.jpg" alt="...">
+        </a>
+    </div>
+    <div class="col-xs-6 col-sm-3">
+        <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+            <img src="./images/img3.jpg" alt="...">
+        </a>
+    </div>
+    <div class="col-xs-6 col-sm-3">
+      <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+          <img src="./images/img4.jpg" alt="...">
+      </a>
+  </div>
+  <div class="col-xs-6 col-sm-3">
+    <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+        <img src="./images/img5.jpg" alt="...">
+    </a>
+</div>
+<div class="col-xs-6 col-sm-3">
+  <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+      <img src="./images/img6.jpg" alt="...">
+  </a>
+</div>
+<div class="col-xs-6 col-sm-3">
+  <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+      <img src="./images/img7.jpg" alt="...">
+  </a>
+</div>
+<div class="col-xs-6 col-sm-3">
+  <a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+      <img src="./images/img8.jpg" alt="...">
+  </a>
+</div>
+
+   
+</div>
+<!-- Lightbox modal area-->
+<div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <!--close button-->
+        <button type="button" class="close hidden" data-dismiss="modal" aria-hidden="true">×</button>
+        <div class="modal-content">
+            <div class="modal-body">
+                <!--add source and alt to image with the help of jQuery-->
+                <img src="" alt="" />
+            </div>
+        </div>
+    
+</body>
+</html>
